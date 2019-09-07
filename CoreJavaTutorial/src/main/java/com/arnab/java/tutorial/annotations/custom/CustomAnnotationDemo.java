@@ -1,6 +1,6 @@
 package com.arnab.java.tutorial.annotations.custom;
 
-@ArnabClassLevel(value = "CustomAnnotationDemo class")
+@ArnabClassLevel(classMarker = CustomAnnotationDemo.class, value = "CustomAnnotationDemo class")
 @CustomAnnotation
 public class CustomAnnotationDemo {
 
